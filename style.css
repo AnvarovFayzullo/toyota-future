@@ -1,0 +1,559 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    width: 100%;
+    position: relative;
+
+}
+
+.navbar i {
+    font-size: 30px;
+}
+
+.navbar {
+    background-color: rgb(255, 255, 255);
+    display: block;
+    height: 70px;
+    border-bottom: 2px solid #000;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 0 10%;
+
+}
+
+.imogo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.toyota {
+    width: 100px;
+    height: 68px;
+}
+
+.car {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 160px;
+    width: 800px;
+}
+
+.infor {
+    text-align: center;
+    justify-content: center;
+}
+
+.servies {
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.container2 {
+    width: 100%;
+    height: 100%;
+}
+
+.card2 {
+    margin-top: 100px;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.car2 {
+    width: 700px;
+    height: 400px;
+}
+
+.card {
+    width: 400px;
+    height: 400px;
+    margin-top: 20px;
+    margin-right: 120px;
+}
+
+.card img {
+    width: 120px;
+    height: 140px;
+    z-index: -1;
+    position: absolute;
+    top: -50px;
+    right: 430px;
+}
+
+.lya {
+    font-weight: 600;
+    text-align: center;
+
+}
+
+.lala {
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.nono {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.learn {
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(30deg, dodgerblue, rgb(196, 3, 196));
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 2px;
+    margin: 40px;
+}
+
+.learn:hover {
+    color: rgb(199, 197, 197);
+}
+
+.container3 {
+    width: 100%;
+    height: 100%;
+}
+
+.car3 {
+    width: 800px;
+    height: 400px;
+    margin-left: 100px;
+}
+
+.carlik3 {
+    width: 400px;
+    height: 400px;
+    margin-left: 100px;
+}
+
+.carlik3 img {
+    width: 120px;
+    height: 150px;
+    z-index: -1;
+    position: absolute;
+    top: -50px;
+    left: 60px;
+}
+
+.card3 {
+    margin-top: 200px;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    position: relative;
+}
+
+.lolo {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.lol {
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.learn2 {
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(30deg, rgb(0, 0, 0), rgb(7, 0, 7));
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 2px;
+    margin-right: 50px;
+    margin-top: 40px;
+}
+
+.container4 {
+    width: 100%;
+    height: 100vh;
+}
+
+.car4 {
+    width: 800px;
+    height: 500px;
+}
+
+.card4 {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-top: 200px;
+    position: relative;
+}
+
+.cardol {
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.cardol img {
+    width: 120px;
+    height: 150px;
+    position: absolute;
+    z-index: -1;
+    top: 40px;
+    left: 50px;
+}
+
+.neue {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.learn3 {
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(30deg, rgb(0, 195, 255), rgb(24, 28, 255));
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 2px;
+    margin-top: 40px;
+}
+
+.learn3:hover {
+    color: rgb(199, 197, 197);
+}
+
+.chio {
+    font-weight: 200;
+    line-height: 20px;
+}
+
+.container5 {
+    width: 100%;
+    height: 100%;
+}
+
+.car5 {
+    width: 700px;
+    height: 400px;
+}
+
+.card5 {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.cardbon {
+    margin-top: 100px;
+    margin-right: 100px;
+}
+
+.cardbon img {
+    width: 120px;
+    height: 140px;
+    z-index: -1;
+    position: absolute;
+    top: 50px;
+    right: 470px;
+}
+.monty {
+    margin-bottom: 50px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.form {
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+
+.learn4 {
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background: #000;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 2px;
+    margin-top: 40px;
+}
+
+.container6 {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(30deg, rgb(0, 247, 255), rgb(207, 0, 207));
+    margin-top: 100px;
+    z-index: -1;
+}
+
+.text {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    overflow: hidden;
+}
+
+.btj {
+    font-size: 40px;
+    margin-left: 900px;
+    position: absolute;
+    margin-top: 250px;
+    font-weight: 800;
+    font-size: 40px;
+    z-index: 1;
+}
+
+.blee {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin: 100px;
+    line-height: 30px;
+}
+
+.white {
+    width: 60%;
+    height: 300px;
+    background-color: #fff;
+    border-radius: 300px;
+    margin-top: 150px;
+    position: absolute;
+    margin-left: 700px;
+
+}
+
+.learn5 {
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(30deg, rgb(0, 0, 0), rgb(0, 0, 0));
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 2px;
+    margin-top: 220px;
+    margin-left: 100px;
+}
+
+.container7 {
+    width: 100%;
+    height: 100%;
+}
+
+.car6 {
+    width: 700px;
+    height: 500px;
+}
+
+.text2 {
+    display: flex;
+    position: relative;
+}
+
+.join {
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(90deg, rgb(0, 247, 255), rgb(174, 0, 255) 60%);
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 2px;
+    margin-top: 40px;
+}
+
+.join:hover {
+    color: rgb(199, 197, 197);
+}
+
+.ffo {
+    margin-top: 200px;
+    position: relative;
+    margin-left: 150px;
+}
+
+.ffo img {
+    width: 120px;
+    height: 140px;
+    z-index: -1;
+    position: absolute;
+    top: -50px;
+    left: -25px;
+}
+
+.lok {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 50px;
+
+}
+
+.keraksiz {
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+
+.neon {
+    margin-left: 60px;
+}
+
+.oppa {
+    color: rgb(0, 199, 99);
+}
+
+.container8 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.xech {
+    margin: 200px;
+    justify-content: space-between;
+}
+
+.xech img{
+    width: 120px;
+    height: 140px;
+    z-index: -1;
+    position: absolute;
+    top: -65px;
+    right: 1070px;
+}
+.vol {
+    width: 150px;
+    height: 150px;
+}
+
+.baliq {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.riba {
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+
+.container9 {
+    width: 100%;
+    height: 100%;
+}
+
+.carlar {
+    width: 337px;
+    height: 220px;
+}
+
+.rasmlar {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 337px 337px 337px 337px;
+}
+
+.container10 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(15, 13, 26);
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    margin-top: 80px;
+}
+
+.loogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nadpis {
+    display: flex;
+    margin-top: 100px;
+    gap: 400px;
+}
+
+.nadpis2 {
+    display: flex;
+    gap: 400px;
+}
+
+.color {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.color2 {
+    color: #fff;
+}
+
+.color3 {
+    margin-left: 30px;
+    color: #fff;
+}
+
+.color4 {
+    margin-left: 30px;
+    color: #fff;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 30px;
+}
+
+.icons i {
+    color: #fff;
+}
+
+.dit {
+    display: block;
+    background-color: rgb(54, 54, 66);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dit h1 {
+    font-size: 15px;
+    font-weight: 600;
+    color: aqua;
+}
+
+.dit p {
+    color: #fff;
+}
